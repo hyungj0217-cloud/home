@@ -1,0 +1,71 @@
+<!-- 
+    링크와 이미지 실습 - 학생용 템플릿
+    주제: 나의 소개 페이지
+    작성자: 차형준
+    작성일: 2025.09.15
+
+    ⚠️ 중요: 실습 전에 images 폴더를 만들고 이미지 파일 2개를 준비하세요!
+    - profile.jpg (프로필 사진 또는 대표 이미지)
+    - hobby.jpg (취미 관련 이미지)
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>나의 소개 페이지</title>
+</head>
+<body>
+    <h1 id="top">안녕하세요, 차형준입니다</h1>
+
+    <!-- 목차 (내부 링크) -->
+    <nav>
+        <a href="#about">소개</a> |
+        <a href="#hobbies">취미</a> |
+        <a href="#contact">연락처</a>
+    </nav>
+
+    <h2 id="about">소개</h2>
+    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"></a>
+    <img src="images/profile.jpg" alt="차형준 프로필 사진" width="150" />
+    <p>저는 웹 개발에 관심이 많은 차형준입니다. 새로운 기술을 배우고 다양한 프로젝트에 도전하는 것을 좋아합니다.</p>
+
+    <h2 id="hobbies">취미</h2>
+    <a href="https://www.nationalgeographic.com" target="_blank" rel="noopener noreferrer">
+        <img src="images/Nature.webp" alt="자연 사진" width="150" />
+    </a>
+    <p>취미는 자연 사진 찍기와 여행입니다. 특히 국립공원에서 자연의 아름다움을 담는 것을 즐깁니다.</p>
+
+    <h2 id="contact">연락처</h2>
+    <ul>
+        <li><a href="https://www.kopo.ac.kr" target="_blank" rel="noopener noreferrer">학교 홈페이지 (폴리텍 강서)</a></li>
+        <li><a href="https://www.github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.stackoverflow.com" target="_blank" rel="noopener noreferrer">Stack Overflow</a></li>
+        <li><a href="hyungj0217@gmial.com">이메일 보내기</a></li>
+    </ul>
+
+    <!-- 맨 위로 링크 -->
+    <p><a href="#top">맨 위로 이동</a></p>
+</body>
+</html>
+
+
+<!-- 
+완성 후 체크해보세요:
+□ 외부 링크 3개 이상 있나요?
+□ 이메일 링크(mailto)가 있나요?
+□ 새 탭으로 열리는 링크가 2개 이상 있나요?
+□ 내부 링크(페이지 내 이동)가 정상 작동하나요?
+□ 이미지 2개가 모두 표시되나요?
+□ 모든 이미지에 alt 텍스트가 있나요?
+□ 이미지 클릭 시 외부 사이트로 이동하나요?
+□ images 폴더에 이미지 파일들이 정리되어 있나요?
+
+파일 구조:
+03-links-and-images/
+├── index.html (이 파일)
+└── images/
+    ├── profile.jpg
+    └── hobby.jpg
+-->
